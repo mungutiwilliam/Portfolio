@@ -1,0 +1,45 @@
+header {
+    height: 150vh;
+    padding-top: 7rem;
+    overflow: hidden;
+
+}
+
+.header_container {
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+
+.cta{
+    margin-top:2.5rem;
+    display: flex;
+    gap: 1.5em;
+    justify-content:center;
+}
+
+.header_socials{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.10rem;
+    position:absolute;
+    left: 10px;
+
+}
+
+.header_socials::after{
+    content: "";
+    width: 1px;
+    height: 2rem;
+    background-color: var(--color-primary)
+}
+/*================me===============*/
+.me{
+    background: var(--color-primary);
+    width: 30rem;
+    height: 40rem;
+    position: center;
+    left: calc(50% -11rem)
+
+}
